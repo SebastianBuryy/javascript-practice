@@ -45,3 +45,6 @@ console.log("The backpack name is:", backpack.name);
 console.log("The number of pockets is:", backpack.pocketNum);
 console.log("The backpack volume is:", backpack.volume);
 console.log("The backpack color is:", backpack.color);
+backpack.newStrapLength(30, 30);
+console.log("The new strap length left is:", backpack.strapLength.left);
+console.log("The new strap length right is:", backpack.strapLength.right);
